@@ -114,5 +114,14 @@ button{
      }
     }
 
-    
+       
+ @media only screen and ( max-width: 320px )
+    {
+     .container{
+        width : 22.5rem; 
+     }
+     input{
+        width:20.5rem;
+     }
+    }
      
