@@ -1,3 +1,4 @@
+
 *{
     margin: 0px ; 
     padding:0px; 
@@ -13,15 +14,15 @@ body{
 
 .container{
     border: 1px solid #717377;
-    padding: 30px;
-    width: 350px;
+    padding: 1rem;
+    width: 25.4rem;
     border-radius: 5px;
     box-shadow: 0px 3px 15px rgba(18, 121, 238, 0.966);
 
 }
 
 input{
-    width: 87%;
+    width: 98%;
     /* border: none; */
     padding:22px;
     font-size: 28px;
@@ -36,8 +37,8 @@ input{
 button{
     border-radius: 50%;
     border: none;
-    width: 70px;
-    height: 55px;
+    width: 4.5rem;
+    height: 3rem;
     margin: 7px;
     font-size: 23px;
     background-color: transparent;
@@ -60,3 +61,48 @@ button{
   background-color: #1000a3da;
   
 }
+
+@media only screen and ( max-width: 400px)
+    {
+     button{
+        width : 4rem; 
+     }
+    }
+
+@media only screen and ( max-width: 320px )
+    {
+     button{
+        width : 3.2rem; 
+     }
+    }
+
+@media only screen and ( max-width: 390px )
+    {
+     button{
+        width : 4.4rem; 
+     }
+    }
+
+@media only screen and ( max-width: 360px )
+    {
+     button{
+        width : 4rem; 
+     }
+    }
+
+@media only screen and ( max-width: 375px )
+    {
+     button{
+        width : 4rem; 
+     }
+    }
+
+@media only screen and ( max-width: 280px )
+    {
+     button{
+        width : 2.7rem; 
+     }
+    }
+
+
+     
