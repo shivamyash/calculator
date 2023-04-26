@@ -97,22 +97,7 @@ button{
      }
     }
 
-@media only screen and ( max-width: 280px )
-    {
-     button{
-        width : 2.7rem; 
-     }
-    }
 
-@media only screen and ( max-width: 360px )
-    {
-     .container{
-        width : 22.5rem; 
-     }
-     input{
-        width:20.5rem;
-     }
-    }
 
        
  @media only screen and ( max-width: 320px )
